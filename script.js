@@ -34,9 +34,9 @@ const img = document.querySelector(".copyImage")
 
 img.addEventListener("click", () => {
     if(!passwordBox.value) return;
-    if(img.src === 'photo.png') return
+    if(img.src === 'photo2.png') return
 
-    img.src = 'photo.png'
+    img.src = 'photo2.png'
     copyPassword();
 
     setTimeout(()=>{
